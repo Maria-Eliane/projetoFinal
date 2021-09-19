@@ -1,0 +1,12 @@
+
+<div id="login" style="display: flex; flex-direction: column; align-items: center;">
+    <h1>Login</h1>
+    <p>
+      <input id="input" style="margin-bottom: 10px;" type="text" pInputText [(ngModel)]="name" placeholder="Nome"/>
+    </p>
+    <p>
+      <input id="input" style="margin-bottom: 10px;" type="password" pInputText [(ngModel)]="password" placeholder="Password"/>
+    </p>
+    <button pButton type="button" label="Click" (click)="handleClick()"></button>
+    
+  </div>
